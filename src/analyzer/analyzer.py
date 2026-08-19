@@ -1,13 +1,5 @@
 """
-API Incident Analyzer con Claude
-=================================
-Este módulo usa Claude (IA) para analizar logs de error y detectar problemas.
-
-¿Qué hace?
-- Lee logs de error de APIs
-- Usa Claude para interpretar la causa del problema
-- Genera diagnóstico automático
-- Sugiere pasos para resolver
+API Incident Analyzer
 """
 
 import os

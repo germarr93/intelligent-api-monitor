@@ -1,13 +1,5 @@
 """
-API Health Monitor
-==================
-Este módulo verifica continuamente si las APIs están "vivas" y funcionales.
-
-¿Qué hace?
-- Hace un ping a cada API cada X segundos
-- Mide el tiempo de respuesta
-- Clasifica como: UP, DEGRADED, DOWN
-- Guarda el histórico
+API Health Monitor 
 """
 
 import requests
