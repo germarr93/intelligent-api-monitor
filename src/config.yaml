@@ -1,0 +1,35 @@
+# Configuración de APIs a Monitorear
+# ===================================
+
+apis:
+  - name: "Kayak Search"
+    url: "https://api.kayak.com/search"
+    timeout: 5
+    check_interval: 60  # segundos
+
+  - name: "Payment Gateway"
+    url: "https://api.payment-provider.com/health"
+    timeout: 10
+    check_interval: 30
+
+  - name: "User Auth Service"
+    url: "https://auth.example.com/health"
+    timeout: 5
+    check_interval: 60
+
+  - name: "Google DNS"
+    url: "https://8.8.8.8"
+    timeout: 5
+    check_interval: 120
+
+# Configuración de Alertas
+alerts:
+  slack_webhook: ${SLACK_WEBHOOK_URL}
+  email: "germarr93@gmail.com"
+  alert_on: ["CRITICAL", "HIGH"]
+
+# Configuración de Logs
+logging:
+  level: "INFO"
+  file: "logs/api-monitor.log"
+  max_file_size: "10MB"
