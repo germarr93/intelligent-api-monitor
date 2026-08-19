@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Kayak Search",
+    "status": "DEGRADED",
+    "response_time": 10.84,
+    "status_code": 404,
+    "timestamp": "2026-08-19T18:21:49.323329",
+    "error": null
+  },
+  {
+    "name": "Google API",
+    "status": "UP",
+    "response_time": 40.34,
+    "status_code": 200,
+    "timestamp": "2026-08-19T18:22:29.672931",
+    "error": null
+  },
+  {
+    "name": "JSON Placeholder",
+    "status": "UP",
+    "response_time": 10.19,
+    "status_code": 200,
+    "timestamp": "2026-08-19T18:22:39.861978",
+    "error": null
+  }
+]
